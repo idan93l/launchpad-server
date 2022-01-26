@@ -1,0 +1,41 @@
+
+.pad {
+  height: 100%;
+  width: 100%;
+  font-size: 8vmin;
+  border: 7px solid rgb(0, 217, 255);
+  color: rgb(0, 217, 255);
+  border-radius: 6px;
+  background-color: rgba(19, 19, 19, 0.541);
+  transition: all 0.3s;
+}
+
+.launchpadKey {
+  display: inline-block;
+}
+
+.pad:hover{
+  border-color: rgb(255, 0, 170);
+  color: rgb(255, 0, 170);
+}
+
+.empty {
+  border: 7px solid rgb(238, 68, 68);
+  background-color: rgba(238, 68, 68, 0.733);
+}
+
+.soundOff {
+  border-color: rgb(238, 68, 68);
+  color: rgb(238, 68, 68);
+}
+
+
+@media (max-width: 800px) {
+  .launchpadKey {
+    display: none;
+  }
+
+  .pad {
+    margin-top: 30px;
+  }
+}

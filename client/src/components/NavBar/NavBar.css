@@ -1,0 +1,48 @@
+.NavBar {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: transparent;
+  position: absolute;
+  font-size: 25px;
+}
+
+.NavBarLink {
+  height: 100%;
+  color: #ffff;
+  text-decoration: none;
+  padding: 0 0.8rem 0 0.8rem;
+  transition: all 0.3s;
+}
+
+.space {
+  flex: 1;
+}
+
+.home {
+  background-color: rgba(26, 164, 228, 0.466);
+  border-radius: 0 0 40% 0;
+}
+
+.home:hover {
+  background-color: rgb(26, 164, 228);
+}
+
+.settings {
+  background-color: rgba(153, 47, 47, 0.466);
+  border-radius: 0 0 0 40%;
+}
+
+.settings:hover {
+  background-color: rgb(153, 47, 47);
+}
+
+.savedSets {
+  background-color: rgba(58, 182, 145, 0.466);
+}
+
+.savedSets:hover {
+  background-color: rgb(58, 182, 145);
+}
